@@ -1,9 +1,12 @@
-import HeroSection from "./HeroSection.jsx";
+import HeroSection from "./components/HeroSection.jsx";
+import ServicesPreviewSection from "./components/ServicesPreviewSection.jsx";
+
 
 function App(){
     return(
         <div>
             <HeroSection />
+            <ServicesPreviewSection />
         </div>
     )
 }
